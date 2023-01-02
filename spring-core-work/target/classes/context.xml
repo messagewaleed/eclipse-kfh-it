@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<!--Declare your beans here-->
+
+<beans>
+    <bean class="org.kfh.Doctor" id="doctor">
+<!--        Setter DI here-->
+<!--        <property name="name" value="Rashid"></property>-->
+<!--        <property name="domain" value="Surgery"></property>-->
+<!--        Constructor DI:-->
+
+        <constructor-arg value="Rashid"></constructor-arg>
+        <constructor-arg value="Orthopaedics"></constructor-arg>
+
+
+
+    </bean>
+</beans>

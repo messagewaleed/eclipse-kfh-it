@@ -186,3 +186,7 @@
 2023-01-02 11:17:09,935 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/eclipse-kfh-it/junit-starter/src/main/resources
 2023-01-02 11:17:09,937 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-01-02 11:17:09,937 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/eclipse-kfh-it/junit-starter/src/test/resources
+2023-01-02 13:28:13,517 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-02 13:28:13,525 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/eclipse-kfh-it/junit-starter/src/main/resources
+2023-01-02 13:28:13,532 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-02 13:28:13,532 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wq/eclipse-kfh-it/junit-starter/src/test/resources
