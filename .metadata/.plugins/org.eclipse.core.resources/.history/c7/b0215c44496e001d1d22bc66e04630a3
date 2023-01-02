@@ -1,0 +1,16 @@
+
+public class MethodsWork {
+	public static void main(String[] args) {
+		new MethodsWork().doSomething();
+	}
+	
+	
+	void doSomething() {
+		System.out.println("Inside doSomething()...");
+	}
+	
+//	Scope returnType identifier(ParameterList) {
+//		
+//	}
+
+}

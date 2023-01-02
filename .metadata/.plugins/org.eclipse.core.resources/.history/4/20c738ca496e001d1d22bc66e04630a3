@@ -1,0 +1,14 @@
+
+public class MethodsWork {
+	public static void main(String[] args) {
+//		int result = new Calculate().add(56, 10);
+		System.out.println("Addition : " + new Calculate().add(50, 181));
+	}
+
+}
+
+class Calculate{
+	int add(int firstNum, int secondNum) {
+		return firstNum + secondNum;
+	}
+}

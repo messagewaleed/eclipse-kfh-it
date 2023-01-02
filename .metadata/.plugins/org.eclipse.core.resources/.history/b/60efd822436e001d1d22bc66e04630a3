@@ -1,0 +1,38 @@
+//int var; Doesn't work in Java
+
+public class VariableLevelDemo {
+	char ch;
+	int val;
+	String str;
+	public static void main(String[] args) {
+//		------------------
+////		VariableLevelDemo ref = new VariableLevelDemo();
+//		VariableLevelDemo otherRef = new VariableLevelDemo();		
+//		ref.str = "Lulwa";
+//		System.out.println(ref.str.charAt(3));//Might be a NPE!
+//		System.out.println(otherRef.str);
+		
+		int value = 0;
+		
+		System.out.println(value);
+		
+		for(int index = 9; index > 90; index++) {
+			System.out.println(index);
+		}
+//			System.out.println(index);
+		
+	}
+	void func() {
+//		value++;//Can't be accessed here
+	}
+}
+
+//boolean - false
+//byte
+//short
+//int
+//long - 0
+//float
+//double - 0.0
+//
+//Reference - null

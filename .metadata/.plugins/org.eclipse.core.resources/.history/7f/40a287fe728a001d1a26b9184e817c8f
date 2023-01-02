@@ -1,0 +1,10 @@
+package com.kfh.waleed.training;
+
+
+public class App 
+{
+   
+	int divide(int firstNum, int secondNum) {
+		return firstNum / secondNum;
+	}
+}

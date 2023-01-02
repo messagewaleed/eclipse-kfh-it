@@ -1,0 +1,18 @@
+
+class MyFirstClassInJava {
+	public static void main(String []args) {
+		System.out.println("We are just going through the basics");
+	}
+
+}
+
+//met()
+//
+//metOfWorld()
+//
+//length
+//
+//lengthOfShirt
+//
+//
+//LENGTH

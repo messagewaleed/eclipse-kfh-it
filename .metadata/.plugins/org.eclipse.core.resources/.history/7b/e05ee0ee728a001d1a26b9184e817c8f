@@ -1,0 +1,51 @@
+package com.kfh.waleed.training;
+
+import org.junit.jupiter.api.Test;
+
+public class AppTest {
+
+	App app;
+
+	@Test // Tells Junit to treat this as a test case
+	void testDivide() {
+//		org.junit.jupiter.api.Assertions.fail("Test case failed...");
+
+		int actual = new App().divide(300, 100);
+
+		int expected = 3;
+
+		org.junit.jupiter.api.Assertions.assertEquals(expected, actual, "Division isn't right...");
+//		org.junit.jupiter.api.Assertions.assertNotEquals(expected, actual);
+
+		org.junit.jupiter.api.Assertions.assertNull(app);
+
+		org.junit.jupiter.api.Assertions.assertTrue(false);
+
+//		Combine multiple assertions
+		org.junit.jupiter.api.Assertions.assertAll(
+				() -> org.junit.jupiter.api.Assertions.assertEquals(expected, actual, "Expected and actual not equal"),
+				() -> org.junit.jupiter.api.Assertions.assertEquals(40, new App().divide(40, 2)),
+				() -> org.junit.jupiter.api.Assertions.assertTrue(false));
+
+	}
+	
+	
+		@Test
+		void testForPalindrome() {
+			
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

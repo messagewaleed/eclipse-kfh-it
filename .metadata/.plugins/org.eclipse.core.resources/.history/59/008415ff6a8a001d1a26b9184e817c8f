@@ -1,0 +1,23 @@
+package com.kfh.waleed.training;
+
+import org.junit.jupiter.api.Test;
+
+public class AppTest {
+	
+	App app;
+
+	@Test //Tells Junit to treat this as a test case
+	void testDivide() {
+//		org.junit.jupiter.api.Assertions.fail("Test case failed...");
+		
+		int actual = new App().divide(300, 100);
+		
+		int expected = 30;
+		
+//		org.junit.jupiter.api.Assertions.assertEquals(expected, actual);
+		org.junit.jupiter.api.Assertions.assertNotEquals(expected, actual);
+		
+		org.junit.jupiter.api.Assertions.assertNull(app);
+		
+	}
+}

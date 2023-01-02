@@ -1,0 +1,16 @@
+
+public class LoopsFun {
+	public static void main(String[] args) {
+//		for(int index = 35; index >= 7; index -= 2) {
+//				System.out.println(index);
+//		}
+		
+		int index = 35;
+		
+		while(index >= 7) {
+			System.out.println(index);
+			index -= 2;
+		}
+	}
+
+}

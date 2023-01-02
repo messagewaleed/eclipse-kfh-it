@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="junit-starter" tests="1" started="1" failures="0" errors="0" ignored="1">
+  <testsuite name="com.kfh.waleed.training.AppTest" displayname="AppTest" uniqueid="[engine:junit-jupiter]/[class:com.kfh.waleed.training.AppTest]">
+    <testsuite name="testForPalindrome(com.kfh.waleed.training.AppTest)" incomplete="true" displayname="Check for Palindrome" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.kfh.waleed.training.AppTest]/[test-template:testForPalindrome(java.lang.String)]"/>
+    <testcase name="testDivide" classname="com.kfh.waleed.training.AppTest" time="0.0" ignored="true" displayname="Check for Divide" uniqueid="[engine:junit-jupiter]/[class:com.kfh.waleed.training.AppTest]/[method:testDivide()]"/>
+  </testsuite>
+</testrun>

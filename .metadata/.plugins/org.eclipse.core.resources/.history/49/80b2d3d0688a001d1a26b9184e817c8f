@@ -1,0 +1,11 @@
+package com.kfh.waleed.training;
+
+import org.junit.jupiter.api.Test;
+
+public class AppTest {
+
+	@Test //Tells Junit to treat this as a test case
+	void testDivide() {
+	
+	}
+}
