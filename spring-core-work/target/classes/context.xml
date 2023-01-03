@@ -5,16 +5,54 @@
 <!--Declare your beans here-->
 
 <beans>
-    <bean class="org.kfh.Doctor" id="doctor">
+    <bean class="org.kfh.PracticingDoctor" id="doctor">
 <!--        Setter DI here-->
-<!--        <property name="name" value="Rashid"></property>-->
-<!--        <property name="domain" value="Surgery"></property>-->
+        <property name="name" value="Rashid"></property>
+        <property name="domain" value="Surgery"></property>
+        <property name="contacts">
+            <list>
+                <ref bean="contact"></ref>
+<!--                <ref bean="secondaryContact"></ref>-->
+            </list>
+        </property>
+
+
+
 <!--        Constructor DI:-->
 
-        <constructor-arg value="Rashid"></constructor-arg>
-        <constructor-arg value="Orthopaedics"></constructor-arg>
+<!--        <constructor-arg index="0" type="java.lang.String" value="Rashid"></constructor-arg>-->
+<!--        <constructor-arg index="1" value="Orthopaedics"></constructor-arg>-->
+<!--        <constructor-arg ref="secondaryContact"></constructor-arg>-->
+    </bean>
 
 
+    <bean scope="prototype" class="org.kfh.GeneralPhysician" id="physician" autowire="byName">
+<!--   No need to do DI, because of autowiring     -->
+    </bean>
 
+    <bean class="org.kfh.GeneralPhysician" id="otherPhysician" init-method="callAtStart" destroy-method="callAtEnd">
+<!--       Create the bean to be injected : right here right now-->
+        <property name="contact">
+            <bean class="org.kfh.Contact">
+                <property name="phoneNumber" value="7777900"></property>
+                <property name="email" value="inner@gmail.com"></property>
+            </bean>
+        </property>
+    </bean>
+
+
+    <bean class="org.kfh.Contact" id="contact">
+        <property name="phoneNumber" value="7888999782"></property>
+        <property name="email" value="rashid@gamil.com"></property>
+    </bean>
+
+    <bean class="org.kfh.Contact" id="secondaryContact">
+        <property name="phoneNumber" value="9657899"></property>
+        <property name="email" value="rashid@kfh.com"></property>
+    </bean>
+
+    <bean class="org.kfh.Contact" id="otherContact">
+        <property name="phoneNumber" value="998788"></property>
+        <property name="email" value="general@kfh.com"></property>
     </bean>
 </beans>
