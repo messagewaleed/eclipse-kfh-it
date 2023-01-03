@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean class="org.kfh.AnnotationsDoctor" id="anDoctor">-->
+
+<!--    </bean>-->
+
+    <bean class="org.kfh.Contact" id="contact">
+        <property name="phoneNumber" value="88989"></property>
+        <property name="email" value="and@gmail.com"></property>
+    </bean>
+
+    <bean class="org.kfh.Contact" id="otherContact">
+        <property name="phoneNumber" value="089822"></property>
+        <property name="email" value="and@kfh.com"></property>
+    </bean>
+
+
+<!--    For annotations to work-->
+    <context:annotation-config></context:annotation-config>
+
+<!--    For @Components, @Service, @Repository, @Bean to work-->
+    <context:component-scan base-package="org.kfh"></context:component-scan>
+
+
+</beans>
