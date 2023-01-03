@@ -1,9 +1,14 @@
 package org.kfh;
 
+import org.kfh.components.AnnotationsDoctor;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import javax.print.Doc;
+import java.util.Arrays;
+import java.util.List;
 
+@Configuration
 public class App
 {
     public static void main( String[] args )
@@ -31,4 +36,17 @@ public class App
 ////        3. Call methods on th bean
           doctor.treatForWages();
     }
+
+    @Bean
+    public List<String> getNames(){
+        return Arrays.asList("Omar", "Shaikha", "Sunder", "Haneen");
+    }
+
+    @Bean
+    public List<String> getOtherNames(){
+        return Arrays.asList("Lulwa", "Atif", "Waleed");
+    }
+
+
+
 }

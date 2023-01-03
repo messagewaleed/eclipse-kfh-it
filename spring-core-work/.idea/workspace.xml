@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3893b435-0284-45a4-8425-98dab7b0fc87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kfh/AnnotationsDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kfh/components/AnnotationsDoctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kfh/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kfh/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotationsContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/annotationsContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/kfh/AnnotationsDoctor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/kfh/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/kfh/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +61,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.kfh.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kfh.App" />
       <module name="spring-core-work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.kfh.*" />
+          <option name="PATTERN" value="org.kfh.components.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,7 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.org.kfh.App" />
       </list>
     </recent_temporary>
   </component>

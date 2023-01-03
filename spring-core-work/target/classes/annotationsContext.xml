@@ -8,10 +8,6 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <bean class="org.kfh.AnnotationsDoctor" id="anDoctor">-->
-
-<!--    </bean>-->
-
     <bean class="org.kfh.Contact" id="contact">
         <property name="phoneNumber" value="88989"></property>
         <property name="email" value="and@gmail.com"></property>
