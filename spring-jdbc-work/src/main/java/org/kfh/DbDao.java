@@ -16,8 +16,6 @@ import java.util.List;
 @Component("dao")
 public class DbDao {
 
-    DataSource dataSource;
-
     JdbcTemplate jdbcTemplate;
 
     NamedParameterJdbcTemplate namedParameterJdbcTemplate;
