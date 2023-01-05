@@ -1,4 +1,5 @@
 package com.waleed.kfh.training.services;
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,5 +35,17 @@ public class EmployeeService {
 		repo.deleteById(id);
 		
 	}
+	
+	public List<Employee> getEmployeesByName(String name) {
+		return repo.findByName(name);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
