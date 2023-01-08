@@ -12,6 +12,10 @@ public class Employee {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
+	private String name;
+
+	private String skills;
+	
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
@@ -22,7 +26,12 @@ public class Employee {
 	}
 
 	public Employee(String name, String skills) {
-		super();
+		this.name = name;
+		this.skills = skills;
+	}
+	
+	public Employee(Integer id, String name, String skills) {
+		this.id = id;
 		this.name = name;
 		this.skills = skills;
 	}
@@ -51,7 +60,5 @@ public class Employee {
 		this.skills = skills;
 	}
 
-	private String name;
-
-	private String skills;
+	
 }
